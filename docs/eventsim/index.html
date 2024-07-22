@@ -6,7 +6,7 @@
 <link rel="icon" href="../logo.svg">
 <link rel="stylesheet" href="../tango.css" type="text/css">
 <link rel="stylesheet" href="../mccole.css" type="text/css">
-<title>Software Design by Example &middot; Observers</title>
+<title>Software Design by Example &middot; Discrete Event Simulator</title>
 <script>
   MathJax = {
     tex: {
@@ -52,7 +52,7 @@
 	  <div class="row notex">
   <div class="col-12 center">
     
-      <h1>Observers</h1>
+      <h1>Discrete Event Simulator</h1>
     
   </div>
 </div>
@@ -60,13 +60,13 @@
 	  
 <nav class="row-always notex">
   <div class="col-1 left">
-    <a href="../debugger/" title="previous" class="undecorated">&#8678;</a>
+    <a href="../concur/" title="previous" class="undecorated">&#8678;</a>
   </div>
   <div class="col-10 center">
     <a href="../" title="home" class="undecorated">&#9737;</a>
   </div>
   <div class="col-1 right">
-    <a href="../docgen/" title="next" class="undecorated">&#8680;</a>
+    <a href="../finale/" title="next" class="undecorated">&#8680;</a>
   </div>
 </nav>
 
@@ -75,18 +75,8 @@
 <li>FIXME</li>
 </ul>
 	  
-	  <ul>
-<li><code>push_simple.py</code>: observables push notifications, execution is immediate</li>
-<li><code>push_buggy.py</code>: infinite recursion</li>
-<li><code>push_origin.py</code>: keep track of originator to avoid cycles<ul>
-<li>use UUID as identifier in exercise</li>
-</ul>
-</li>
-<li><code>push_queue.py</code>: use the graph to add work to a queue for execution</li>
-<li><code>delay_queue.py</code>: split action from notification</li>
-<li><code>delay_queue_verbose.py</code>: run with tracing</li>
-<li><code>logging.py</code>: queue records actions and causes (better than verbose flag)</li>
-</ul>
+	  <p class="fixme">FIXME: create discrete event simulator</p>
+<p><a href="https://github.com/gvwilson/sdxpy/issues/56" class="issue">Issue 56</a></p>
 	</main>
 	<footer>
   © 2024 <a href="https://third-bit.com/">Greg Wilson</a>

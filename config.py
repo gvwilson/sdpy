@@ -50,6 +50,7 @@ chapters = [
     "cache",
     "orm",
     "concur",
+    "eventsim",
     "finale",
 ]
 
